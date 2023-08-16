@@ -1,0 +1,247 @@
+ /** {   
+   background-image: url("https://elzero.org/wp-content/uploads/2022/11/developer-terms.png") ;
+   background-repeat: no-repeat ;
+   background-attachment: fixed ;
+   background-position: 20px 20px ;
+   background-size: contain ;
+   padding: 20px 50px;
+   color: rgb(12, 138, 223);
+}
+
+
+
+h1 {
+   border: 10px rgb(114, 114, 114) solid;
+    width: 600px;
+   padding: 0px 5px 0px;
+   text-align: center;
+   background-color: rgb(223, 126, 126);
+   width:fit-content;
+   height:fit-content;
+
+}
+
+ h1 {
+
+  margin-left: auto;
+   margin-right: auto;
+  
+} 
+
+#ee{
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%; 
+
+
+}
+
+#eee {
+
+   background-color: darkcyan;
+   border-radius: 0px 80px 80px 80px ;
+   padding: 8px 30px;
+ 
+}
+.cccc{
+   width: 500px;
+   height: 500px;
+   background-color: #000000;
+}
+#www{
+   color: blueviolet;
+   text-align: center;
+} */
+
+body{
+   margin: 0;  /*مسافه الخارجيه كامله بين الموقع والتصميم */
+   padding: 0; /*مسافه الداخليه للعناصر كامله بين الموقع والتصميم */
+   font-family: Arial, Helvetica, sans-serif;   /*نوع خط معينن*/
+   background-color: black;
+}
+
+.main{
+background-image: url(../img/background-plane.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-size: 100%;
+width: 1240px;
+height: 740px;
+
+margin-left: 10px;
+margin-top: 50px;
+}
+
+.header{
+   height: 30px;
+}
+
+#logo{
+   
+   
+   position: relative;
+   margin-top: 0px;
+   margin-left: 10px;
+}
+
+.aik{
+   float: right;
+  margin-top: 0px;
+
+}
+.aik img{
+margin-left: 30px;
+
+}
+
+
+.taxt{
+   width: 400px;
+   margin-top: 50px;
+padding:30px;
+}
+.taxt h1 {
+color: #3dc6ff;
+font-size: 2.5em;
+font-weight: 100;
+margin-bottom: 20px;
+
+}
+.taxt p {
+color: hsl(0, 0%, 100%);
+font-size: 18px;
+margin-bottom: 20px;
+line-height: 120%;
+}
+
+
+
+
+.taxt button {
+   color: #3dc6ff;
+   font-size: 0.9em;
+background-color: black;
+border: 2px solid;
+border-radius: 14px;
+padding: 8px;
+}
+
+.taxt button:hover{
+   background-color:#3dc6ff;
+   color: rgb(0, 0, 0);
+}
+
+
+.midd{
+   margin-top: -1.2%;
+   position: absolute;
+   left: 0;
+   height: 120px;
+   width: 1280px;
+
+}
+
+.left{
+width: 20%;
+height:100% ;
+background-color:#007db8 ;
+float: left;
+}
+.right{
+width: 69%;
+height:100% ;
+background-color:#007db8 ;
+float: right;
+}
+
+.bar{
+padding: 0;
+margin-top : 18px; 
+position:absolute ;
+width: 69%;
+height: 100%;
+left: 20.4%;
+}
+
+
+.bar li{
+
+width: 130px;
+list-style: none;
+float: left;
+margin: right 30px; 
+text-align: center;
+}
+
+.bar img{
+width: 50%;
+}
+.bar span{
+color: #ffffff;
+font-size: 0.65em;
+}
+
+.listt{
+
+margin:0 auto;
+margin-top: 100px;
+margin-left: 150px;
+}
+
+.oo{
+float: left;
+color:#ffd220 ;
+font-size: 79px;
+}
+.hash{
+font-size: 30px;
+
+}
+
+.pp{
+
+color: rgb(255, 255, 255);
+font: size 20px;
+padding-top: 15px;
+}
+
+.learn{
+color: #3dc6ef;
+font-size: 12px;
+text-decoration: none;
+}
+.learn:hover{
+
+text-decoration: underline;
+}
+
+.one{
+float: left;
+width: 32%;
+margin-left: 10px;
+}
+
+
+.footer{
+margin-left: 50px;
+margin-top:15px;
+
+}
+.footer a{
+   text-decoration:none;
+   color: rgb(98, 99, 99);
+}
+.footer a:hover{
+   text-decoration:underline;
+}
+
+
+.footer div{
+margin-top: -40PX;
+margin-left: 150px;
+}
+
+
+.footer div a {
+margin-right: 10px;  
+}
